@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="pcl_voxel_view" name="pcl_voxel_view" type="pcl_voxel_view" output="screen">
+      <param name="voxel_size" value= "2.0"/>
+      <param name="pcl_path_one" value= "/home/free/bag/view/third_filter/third_filter.pcd"/>    
+      <param name="pcl_path_two" value= "/home/free/bag/view/third_seg/third_seg.pcd"/>  
+  </node>
+
+</launch>
